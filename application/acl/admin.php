@@ -1,12 +1,9 @@
 <?php
 
-//user role and avaliable pages for main controller
+//user role and avaliable pages for admin controller
 return [
     'all' => [
-        'index',
-        'about',
-        'contact',
-        'post'
+        'login'
     ],
     'authorize' => [
         //
@@ -15,6 +12,9 @@ return [
         //
     ],
     'admin' => [
-        //
+        'logout',
+        'add',
+        'edit',
+        'delete'
     ]
 ];
